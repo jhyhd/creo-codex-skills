@@ -1,0 +1,6 @@
+interface:
+  display_name: "连续屏幕观察与界面闭环"
+  short_description: "有限时长采集 Windows 画面并核对界面变化，形成观察、操作和复核闭环"
+  default_prompt: "Use $screen-observe-loop to observe the target window, act within the current task, and verify the result from fresh screenshots."
+policy:
+  allow_implicit_invocation: true

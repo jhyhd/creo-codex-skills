@@ -1,0 +1,37 @@
+# Local credentials and machine settings
+.env
+.env.*
+!.env.example
+auth.json
+config.toml
+*.pem
+*.key
+*.lic
+*.dat
+
+# Generated runtimes, caches, backend binaries and CAD output
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.dll
+*.exe
+*.lib
+*.obj
+*.pdb
+*.log
+*.prt*
+*.asm*
+*.drw*
+*.stp
+*.step
+*.igs
+*.iges
+*.brep
+out/
+dist/
+skill-backups/
+.DS_Store
+Thumbs.db
+.screen-observe/
+screen-captures/

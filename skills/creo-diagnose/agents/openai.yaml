@@ -1,0 +1,6 @@
+interface:
+  display_name: "Creo 连接与运行诊断"
+  short_description: "排查 Creo MCP 连接、COM 错误、目标会话和插件状态"
+  default_prompt: "Use $creo-diagnose to diagnose the Creo connection and report the root cause with the fix."
+policy:
+  allow_implicit_invocation: true

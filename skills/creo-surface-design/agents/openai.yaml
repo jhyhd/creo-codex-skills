@@ -1,0 +1,6 @@
+interface:
+  display_name: "Creo 曲面与复杂外形"
+  short_description: "通过 build123d 放样、扫掠与曲面模板生成几何并导入 Creo"
+  default_prompt: "Use $creo-surface-design to build the surface part from a template and report the .prt path plus the parameter file."
+policy:
+  allow_implicit_invocation: true

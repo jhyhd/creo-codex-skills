@@ -1,0 +1,15 @@
+{
+  "tool": "creo_surface",
+  "arguments": {
+    "name": "demo_duct_90_to_44",
+    "template": "duct",
+    "params": {
+      "sections": [
+        {"z": 0, "type": "rect", "w": 90, "h": 90},
+        {"z": 60, "type": "circle", "d": 76},
+        {"z": 120, "type": "circle", "d": 44}
+      ],
+      "thicken": 2.5
+    }
+  }
+}

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Creo 原生参数化建模"
+  short_description: "通过 Creo MCP 与 TOOLKIT 后端创建可编辑的原生规则零件"
+  default_prompt: "Use $creo-native-model to build the part with native Creo features and report feature ids and the .prt path."
+policy:
+  allow_implicit_invocation: true

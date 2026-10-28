@@ -1,0 +1,6 @@
+interface:
+  display_name: "Creo TOOLKIT DLL 开发"
+  short_description: "在独立 TOOLKIT 桥接源码中开发原生特征并验证构建与几何结果"
+  default_prompt: "Use $creo-toolkit-dev to implement or fix a native feature in the Creo TOOLKIT DLL and verify it in Creo."
+policy:
+  allow_implicit_invocation: true

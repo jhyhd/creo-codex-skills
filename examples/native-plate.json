@@ -1,0 +1,12 @@
+{
+  "tool": "creo_native_design",
+  "arguments": {
+    "name": "demo_plate_120x80",
+    "features": [
+      {"action": "extrude", "params": {"plane": "TOP", "w": 120, "h": 80, "depth": 10}},
+      {"action": "extrude", "params": {"plane": "TOP", "cut": 1, "through_all": 1, "circles": "8:50:30,8:-50:30,8:50:-30,8:-50:-30"}},
+      {"action": "round", "params": {"radius": 3, "edges": "vertical"}}
+    ],
+    "save": true
+  }
+}

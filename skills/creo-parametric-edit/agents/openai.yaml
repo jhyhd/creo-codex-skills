@@ -1,0 +1,6 @@
+interface:
+  display_name: "Creo 零件参数化修改"
+  short_description: "按零件来源选择尺寸就地编辑、原生配方重建或曲面模板重生成"
+  default_prompt: "Use $creo-parametric-edit to change the part parameters, regenerate it, and report the new geometry and paths."
+policy:
+  allow_implicit_invocation: true
