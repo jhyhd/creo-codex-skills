@@ -236,7 +236,8 @@ def main():
     parser.add_argument('--output-dir', help='Defaults to a unique directory under the system temporary directory.')
     scope = parser.add_mutually_exclusive_group()
     scope.add_argument('--window-title', help='Case-insensitive substring; exactly one visible window must match.')
-    scope.add_argument('--region', type=int, nargs=4, metavar=('X', 'Y', 'WIDTH', 'HEIGHT'))
+    scope.add_argument('--region', type=int, nargs=4, metavar=('X', 'Y', 'WIDTH', 'HEIGHT'),
+                       help='Absolute physical pixels on the virtual desktop; X/Y may be negative on secondary monitors.')
     parser.add_argument('--interval', type=float, default=2.0, help='Sampling interval in seconds; minimum 0.5.')
     parser.add_argument('--duration', type=float, default=30.0, help='Maximum watch duration in seconds; maximum 300.')
     parser.add_argument('--max-frames', type=int, default=60, help='Maximum saved change frames, from 1 to 600.')
