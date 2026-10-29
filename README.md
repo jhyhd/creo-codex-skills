@@ -3,7 +3,7 @@
 [![Validate skill package](https://github.com/jhyhd/creo-codex-skills/actions/workflows/validate.yml/badge.svg)](https://github.com/jhyhd/creo-codex-skills/actions/workflows/validate.yml)
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-面向 Windows 的中文 Codex 技能包：五个 Creo 自动化工作流，加上一个可独立运行的连续屏幕观察技能。涵盖原生特征、复杂曲面、参数修改、排障、TOOLKIT 开发，以及执行结果的画面检查。
+面向 Windows 的中文 Codex 技能包：五个 Creo 自动化工作流，加上一个可独立运行的连续屏幕观察技能。涵盖原生特征、简单曲面、参数修改、排障、TOOLKIT 开发，以及执行结果的画面检查。性能有点差，复杂曲面基本不了实现
 
 Chinese-first Codex skills: five Creo workflows plus an independent Windows screen-observation loop. The screen helper uses Python's standard library. Creo modeling requires a separate MCP backend and, for native features, a TOOLKIT plugin; neither backend is included.
 
