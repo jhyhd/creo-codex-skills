@@ -15,10 +15,10 @@ Chinese-first Codex skills: five Creo workflows plus an independent Windows scre
 
 ## 六个技能
 
-| 技能 | 适合的任务 | 关注点 |
+| 技能 | 适合的任务 | 需注意点 |
 |---|---|---|
 | [creo-native-model](skills/creo-native-model/SKILL.md) | 板件、轴、法兰、支架等规则零件 | 后端支持的原生特征与 Creo 特征树 |
-| [creo-surface-design](skills/creo-surface-design/SKILL.md) | 放样、扫掠、扭转和复杂外形 | build123d 几何、STEP 导入及实体有效性 |
+| [creo-surface-design](skills/creo-surface-design/SKILL.md) | 放样、扫掠、扭转 | build123d 几何、STEP 导入及实体有效性 |
 | [creo-parametric-edit](skills/creo-parametric-edit/SKILL.md) | 修改已有零件的尺寸或参数 | 区分就地编辑、配方重建与模板重生成 |
 | [creo-diagnose](skills/creo-diagnose/SKILL.md) | 会话、COM、插件和通信错误 | 保留现场，核实诊断与恢复操作的副作用 |
 | [creo-toolkit-dev](skills/creo-toolkit-dev/SKILL.md) | 开发或修复原生特征插件 | 在另行取得的 TOOLKIT 项目中构建与验证 |
